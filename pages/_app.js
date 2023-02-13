@@ -14,7 +14,7 @@ const MyApp = ({ Component, pageProps }) => {
   useEffect(() => {
     AOS.init();
   },[]);
-  <Script src="/js/main.js" />
+  
   return (
     <Layout>
       <Component {...pageProps} />
