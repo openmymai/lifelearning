@@ -42,63 +42,67 @@ const Layout = (props) => {
                   <li><a href="/lesson0212">เล่ม 2 บทที่ 12</a></li>
                 </ul>
               </li>
-              <li className="dropdown"><a href="#"><span></span>เล่มที่ 3<i className="bi bi-chevron-down"></i></a>
+              <li class="dropdown"><a href="#"><span>บทวิปัสสนาเพิ่มเติม</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
-                  <li><a href="/lesson0301">เล่ม 3 บทที่ 1</a></li>
-                  <li><a href="/lesson0302">เล่ม 3 บทที่ 2</a></li>
-                  <li><a href="/lesson0303">เล่ม 3 บทที่ 3</a></li>
-                  <li><a href="/lesson0304">เล่ม 3 บทที่ 4</a></li>
-                  <li><a href="/lesson0305">เล่ม 3 บทที่ 5</a></li>
-                  <li><a href="/lesson0306">เล่ม 3 บทที่ 6</a></li>
-                  <li><a href="/lesson0307">เล่ม 3 บทที่ 7</a></li>
-                  <li><a href="/lesson0308">เล่ม 3 บทที่ 8</a></li>
-                  <li><a href="/lesson0309">เล่ม 3 บทที่ 9</a></li>
-                  <li><a href="/lesson0310">เล่ม 3 บทที่ 10</a></li>
-                  <li><a href="/lesson0311">เล่ม 3 บทที่ 11</a></li>
-                  <li><a href="/lesson0312">เล่ม 3 บทที่ 12</a></li>
-                  <li><a href="/lesson0313">เล่ม 3 บทที่ 13</a></li>
-                  <li><a href="/lesson0314">เล่ม 3 บทที่ 14</a></li>
-                  <li><a href="/lesson0315">เล่ม 3 บทที่ 15</a></li>
-                </ul>
-              </li>
-              <li className="dropdown"><a href="#"><span></span>เล่มที่ 4<i className="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="/lesson0401">เล่ม 4 บทที่ 1</a></li>
-                  <li><a href="/lesson0402">เล่ม 4 บทที่ 2</a></li>
-                  <li><a href="/lesson0403">เล่ม 4 บทที่ 3</a></li>
-                  <li><a href="/lesson0404">เล่ม 4 บทที่ 4</a></li>
-                  <li><a href="/lesson0405">เล่ม 4 บทที่ 5</a></li>
-                  <li><a href="/lesson0406">เล่ม 4 บทที่ 6</a></li>
-                  <li><a href="/lesson0407">เล่ม 4 บทที่ 7</a></li>
-                  <li><a href="/lesson0408">เล่ม 4 บทที่ 8</a></li>
-                  <li><a href="/lesson0409">เล่ม 4 บทที่ 9</a></li>
-                  <li><a href="/lesson0410">เล่ม 4 บทที่ 10</a></li>
-                </ul>
-              </li>
-              <li className="dropdown"><a href="#"><span></span>เล่มที่ 5<i className="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="/lesson0501">เล่ม 5 บทที่ 1</a></li>
-                  <li><a href="/lesson0502">เล่ม 5 บทที่ 2</a></li>
-                  <li><a href="/lesson0503">เล่ม 5 บทที่ 3</a></li>
-                  <li><a href="/lesson0504">เล่ม 5 บทที่ 4</a></li>
-                  <li><a href="/lesson0505">เล่ม 5 บทที่ 5</a></li>
-                  <li><a href="/lesson0506">เล่ม 5 บทที่ 6</a></li>
-                  <li><a href="/lesson0507">เล่ม 5 บทที่ 7</a></li>
-                  <li><a href="/lesson0508">เล่ม 5 บทที่ 8</a></li>
-                  <li><a href="/lesson0509">เล่ม 5 บทที่ 9</a></li>
-                  <li><a href="/lesson0510">เล่ม 5 บทที่ 10</a></li>
-                  <li><a href="/lesson0511">เล่ม 5 บทที่ 11</a></li>
-                  <li><a href="/lesson0512">เล่ม 5 บทที่ 12</a></li>
-                </ul>
-              </li>
-              <li className="dropdown"><a href="#"><span></span>เล่มที่ 6<i className="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="/lesson0601">เล่ม 6 บทที่ 1</a></li>
-                  <li><a href="/lesson0602">เล่ม 6 บทที่ 2</a></li>
-                  <li><a href="/lesson0603">เล่ม 6 บทที่ 3</a></li>
-                  <li><a href="/lesson0604">เล่ม 6 บทที่ 4</a></li>
-                  <li><a href="/lesson0605">เล่ม 6 บทที่ 5</a></li>
-                  <li><a href="/lesson0606">เล่ม 6 บทที่ 6</a></li>
+                  <li className="dropdown"><a href="#"><span></span>ว่าด้วยความเป็นอนิจจัง ทุกขัง อนัตตา<i className="bi bi-chevron-down"></i></a>
+                    <ul>
+                      <li><a href="/lesson0301">เล่ม 3 บทที่ 1</a></li>
+                      <li><a href="/lesson0302">เล่ม 3 บทที่ 2</a></li>
+                      <li><a href="/lesson0303">เล่ม 3 บทที่ 3</a></li>
+                      <li><a href="/lesson0304">เล่ม 3 บทที่ 4</a></li>
+                      <li><a href="/lesson0305">เล่ม 3 บทที่ 5</a></li>
+                      <li><a href="/lesson0306">เล่ม 3 บทที่ 6</a></li>
+                      <li><a href="/lesson0307">เล่ม 3 บทที่ 7</a></li>
+                      <li><a href="/lesson0308">เล่ม 3 บทที่ 8</a></li>
+                      <li><a href="/lesson0309">เล่ม 3 บทที่ 9</a></li>
+                      <li><a href="/lesson0310">เล่ม 3 บทที่ 10</a></li>
+                      <li><a href="/lesson0311">เล่ม 3 บทที่ 11</a></li>
+                      <li><a href="/lesson0312">เล่ม 3 บทที่ 12</a></li>
+                      <li><a href="/lesson0313">เล่ม 3 บทที่ 13</a></li>
+                      <li><a href="/lesson0314">เล่ม 3 บทที่ 14</a></li>
+                      <li><a href="/lesson0315">เล่ม 3 บทที่ 15</a></li>
+                    </ul>
+                  </li>
+                  <li className="dropdown"><a href="#"><span></span>ว่าด้วยอดีต ปัจจุบัน อนาคต<i className="bi bi-chevron-down"></i></a>
+                    <ul>
+                      <li><a href="/lesson0401">เล่ม 4 บทที่ 1</a></li>
+                      <li><a href="/lesson0402">เล่ม 4 บทที่ 2</a></li>
+                      <li><a href="/lesson0403">เล่ม 4 บทที่ 3</a></li>
+                      <li><a href="/lesson0404">เล่ม 4 บทที่ 4</a></li>
+                      <li><a href="/lesson0405">เล่ม 4 บทที่ 5</a></li>
+                      <li><a href="/lesson0406">เล่ม 4 บทที่ 6</a></li>
+                      <li><a href="/lesson0407">เล่ม 4 บทที่ 7</a></li>
+                      <li><a href="/lesson0408">เล่ม 4 บทที่ 8</a></li>
+                      <li><a href="/lesson0409">เล่ม 4 บทที่ 9</a></li>
+                      <li><a href="/lesson0410">เล่ม 4 บทที่ 10</a></li>
+                    </ul>
+                  </li>
+                  <li className="dropdown"><a href="#"><span></span>ว่าด้วยปฏิจจสมุปบาท<i className="bi bi-chevron-down"></i></a>
+                    <ul>
+                      <li><a href="/lesson0501">เล่ม 5 บทที่ 1</a></li>
+                      <li><a href="/lesson0502">เล่ม 5 บทที่ 2</a></li>
+                      <li><a href="/lesson0503">เล่ม 5 บทที่ 3</a></li>
+                      <li><a href="/lesson0504">เล่ม 5 บทที่ 4</a></li>
+                      <li><a href="/lesson0505">เล่ม 5 บทที่ 5</a></li>
+                      <li><a href="/lesson0506">เล่ม 5 บทที่ 6</a></li>
+                      <li><a href="/lesson0507">เล่ม 5 บทที่ 7</a></li>
+                      <li><a href="/lesson0508">เล่ม 5 บทที่ 8</a></li>
+                      <li><a href="/lesson0509">เล่ม 5 บทที่ 9</a></li>
+                      <li><a href="/lesson0510">เล่ม 5 บทที่ 10</a></li>
+                      <li><a href="/lesson0511">เล่ม 5 บทที่ 11</a></li>
+                      <li><a href="/lesson0512">เล่ม 5 บทที่ 12</a></li>
+                    </ul>
+                  </li>
+                  <li className="dropdown"><a href="#"><span></span>พระสุตตันตปิฎก เล่ม ๙<i className="bi bi-chevron-down"></i></a>
+                    <ul>
+                      <li><a href="/lesson0601">เล่ม 6 บทที่ 1</a></li>
+                      <li><a href="/lesson0602">เล่ม 6 บทที่ 2</a></li>
+                      <li><a href="/lesson0603">เล่ม 6 บทที่ 3</a></li>
+                      <li><a href="/lesson0604">เล่ม 6 บทที่ 4</a></li>
+                      <li><a href="/lesson0605">เล่ม 6 บทที่ 5</a></li>
+                      <li><a href="/lesson0606">เล่ม 6 บทที่ 6</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
               <li className="dropdown"><a href="#"><span></span>ชีวิตประจำวัน<i className="bi bi-chevron-down"></i></a>
