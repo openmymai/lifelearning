@@ -10,7 +10,7 @@ const Layout = (props) => {
             <ul>
               <li><a className="nav-link scrollto active" href="/">หน้าแรก</a></li>
               <li><a className="nav-link scrollto" href="/introduction">บทนำ</a></li>
-              <li className="dropdown"><a href="#"><span></span>เริ่มต้นท่องจำ<i className="bi bi-chevron-down"></i></a>
+              <li className="dropdown"><a href="#"><span></span>บทวิปัสสนาภาวนา<i className="bi bi-chevron-down"></i></a>
                 <ul>
                   <li><a href="/lesson0101">เล่ม 1 บทที่ 1</a></li>
                   <li><a href="/lesson0102">เล่ม 1 บทที่ 2</a></li>
@@ -18,12 +18,6 @@ const Layout = (props) => {
                   <li><a href="/lesson0104">เล่ม 1 บทที่ 4</a></li>
                   <li><a href="/lesson0105">เล่ม 1 บทที่ 5</a></li>
                   <li><a href="/lesson0106">เล่ม 1 บทที่ 6</a></li>
-                  <li><a href="/lesson0107">เล่ม 1 บทที่ 7</a></li>
-                  <li><a href="/lesson0108">เล่ม 1 บทที่ 8</a></li>
-                  <li><a href="/lesson0109">เล่ม 1 บทที่ 9</a></li>
-                  <li><a href="/lesson0110">เล่ม 1 บทที่ 10</a></li>
-                  <li><a href="/lesson0111">เล่ม 1 บทที่ 11</a></li>
-                  <li><a href="/lesson0112">เล่ม 1 บทที่ 12</a></li>
                 </ul>
               </li>
               <li className="dropdown"><a href="#"><span></span>หลักสูตรอนาคามีผล<i className="bi bi-chevron-down"></i></a>
@@ -105,7 +99,7 @@ const Layout = (props) => {
                   </li>
                 </ul>
               </li>
-              <li className="dropdown"><a href="#"><span></span>ชีวิตประจำวัน<i className="bi bi-chevron-down"></i></a>
+              <li className="dropdown"><a href="#"><span></span>นำไปใช้ในชีวิตประจำวัน<i className="bi bi-chevron-down"></i></a>
                 <ul>
                   <li><a href="/learning01">บทที่ 1</a></li>
                   <li><a href="/learning02">บทที่ 2</a></li>
