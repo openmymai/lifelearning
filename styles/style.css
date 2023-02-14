@@ -337,6 +337,7 @@ h6 {
     scroll-snap-type: y mandatory;
     scroll-behavior: auto;
     background: #37517e;
+    flex-wrap: wrap;
   }
 }
 
@@ -529,6 +530,7 @@ h6 {
     scroll-snap-type: y mandatory;
     scroll-behavior: auto;
     background: #37517e;
+    flex-wrap: wrap;
   }
 }
 
@@ -562,6 +564,7 @@ h6 {
     scroll-snap-type: y mandatory;
     scroll-behavior: auto;
     background: #37517e;
+    flex-wrap: wrap;
   }
 }
 
@@ -589,6 +592,7 @@ h6 {
     scroll-snap-type: y mandatory;
     scroll-behavior: auto;
     background: #37517e;
+    flex-wrap: wrap;
   }
 }
 
@@ -717,6 +721,7 @@ h6 {
     scroll-snap-type: y mandatory;
     scroll-behavior: auto;
     background: #37517e;
+    flex-wrap: wrap;
   }
 }
 
@@ -750,6 +755,7 @@ h6 {
     scroll-snap-type: y mandatory;
     scroll-behavior: auto;
     background: #37517e;
+    flex-wrap: wrap;
   }
 }
 
@@ -777,6 +783,7 @@ h6 {
     scroll-snap-type: y mandatory;
     scroll-behavior: auto;
     background: #37517e;
+    flex-wrap: wrap;
   }
 }
 
