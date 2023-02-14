@@ -17,6 +17,8 @@ body {
 }
 
 .praise_container {
+  display: flex;
+  flex-direction: column-reverse;
   width: 100%;
   aspect-ratio: 2/1;
   padding: 20px 20px;
@@ -25,6 +27,7 @@ body {
   border-radius: 5px;
   overflow-x: hidden;
   overflow-y: scroll;
+  overflow: auto;
   scroll-snap-type: y mandatory;
   scroll-behavior: auto;
   background: #37517e;
