@@ -638,6 +638,10 @@ h6 {
   #hero2 .hero-img img {
     width: 50%;
   }
+  .praise_container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 @media (max-width: 768px) {
@@ -654,6 +658,10 @@ h6 {
 
   #hero2 .hero-img img {
     width: 70%;
+  }
+  .praise_container {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
@@ -769,6 +777,10 @@ section {
 @media (max-width: 768px) {
   .clients img {
     max-width: 40%;
+  }
+  .praise_container {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
@@ -937,6 +949,10 @@ section {
     padding-left: 0;
     padding-right: 0;
   }
+  .praise_container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 @media (max-width: 992px) {
@@ -951,11 +967,19 @@ section {
   .why-us .accordion-list {
     padding-bottom: 30px;
   }
+  .praise_container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 @media (max-width: 575px) {
   .why-us .img {
     min-height: 200px;
+  }
+  .praise_container {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
