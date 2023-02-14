@@ -322,6 +322,22 @@ h6 {
   .navbar ul {
     display: none;
   }
+  .praise_container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    aspect-ratio: 2/1;
+    padding: 20px 20px;
+    margin: 5px;
+    border: solid white 1px;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: auto;
+    background: #37517e;
+  }
 }
 
 .navbar-mobile {
@@ -498,6 +514,22 @@ h6 {
   #hero .hero-img img {
     width: 50%;
   }
+  .praise_container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    aspect-ratio: 2/1;
+    padding: 20px 20px;
+    margin: 5px;
+    border: solid white 1px;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: auto;
+    background: #37517e;
+  }
 }
 
 @media (max-width: 768px) {
@@ -515,6 +547,22 @@ h6 {
   #hero .hero-img img {
     width: 70%;
   }
+  .praise_container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    aspect-ratio: 2/1;
+    padding: 20px 20px;
+    margin: 5px;
+    border: solid white 1px;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: auto;
+    background: #37517e;
+  }
 }
 
 @media (max-width: 575px) {
@@ -525,6 +573,22 @@ h6 {
   #hero .btn-get-started {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
+  }
+  .praise_container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    aspect-ratio: 2/1;
+    padding: 20px 20px;
+    margin: 5px;
+    border: solid white 1px;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: auto;
+    background: #37517e;
   }
 }
 
@@ -641,6 +705,18 @@ h6 {
   .praise_container {
     display: flex;
     flex-direction: column-reverse;
+    width: 100%;
+    aspect-ratio: 2/1;
+    padding: 20px 20px;
+    margin: 5px;
+    border: solid white 1px;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: auto;
+    background: #37517e;
   }
 }
 
@@ -662,6 +738,18 @@ h6 {
   .praise_container {
     display: flex;
     flex-direction: column-reverse;
+    width: 100%;
+    aspect-ratio: 2/1;
+    padding: 20px 20px;
+    margin: 5px;
+    border: solid white 1px;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: auto;
+    background: #37517e;
   }
 }
 
@@ -677,6 +765,18 @@ h6 {
   .praise_container {
     display: flex;
     flex-direction: column-reverse;
+    width: 100%;
+    aspect-ratio: 2/1;
+    padding: 20px 20px;
+    margin: 5px;
+    border: solid white 1px;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: auto;
+    background: #37517e;
   }
 }
 
