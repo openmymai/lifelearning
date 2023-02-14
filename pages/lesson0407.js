@@ -51,7 +51,7 @@ const Lesson0407 = () => {
             </button>
             <h2 style={{display: 'inline-block'}}>ขัตติยาธิปปายสูตร</h2>
           </div>
-          <div>
+          <div className="praise_container">
             <h2>
               <span style={{ whiteSpace: 'pre' }} ref={el} />
             </h2>

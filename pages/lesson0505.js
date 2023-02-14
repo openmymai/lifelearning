@@ -40,7 +40,7 @@ const Lesson0505 = () => {
             </button>
             <h2 style={{display: 'inline-block'}}>อานาปานสติภาวนา</h2>
           </div>
-          <div>
+          <div className="praise_container">
             <h2>
               <span style={{ whiteSpace: 'pre' }} ref={el} />
             </h2>

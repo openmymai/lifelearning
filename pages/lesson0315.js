@@ -41,7 +41,7 @@ const Lesson0315 = () => {
             </button>
             <h2 style={{display: 'inline-block'}}>ว่าด้วยเหตุปัจจัยเป็นเครื่องให้สัตว์ไม่ปรินิพพานและปรินิพพาน</h2>
           </div>
-          <div>
+          <div className="praise_container">
             <h2>
               <span style={{ whiteSpace: 'pre' }} ref={el} />
             </h2>

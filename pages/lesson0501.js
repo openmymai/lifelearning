@@ -39,7 +39,7 @@ const Lesson0501 = () => {
             </button>
             <h2 style={{display: 'inline-block'}}>พิจารณาขันธ์ 5 อินทรีย์ 6</h2>
           </div>
-          <div>
+          <div className="praise_container">
             <h2>
               <span style={{ whiteSpace: 'pre' }} ref={el} />
             </h2>

@@ -45,7 +45,7 @@ const Lesson0208 = () => {
             </button>
             <h2 style={{display: 'inline-block'}}>วิปัสสนากำหนดรู้ส่วน 2 อย่าง</h2>
           </div>
-          <div>
+          <div className="praise_container">
             <h2>
               <span style={{ whiteSpace: 'pre' }} ref={el} />
             </h2>

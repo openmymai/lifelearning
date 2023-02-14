@@ -42,7 +42,7 @@ const Lesson0209 = () => {
             </button>
             <h2 style={{display: 'inline-block'}}>กำหนดรู้ธรรมที่เนื่องด้วยอายตนะ 6</h2>
           </div>
-          <div>
+          <div className="praise_container">
             <h2>
               <span style={{ whiteSpace: 'pre' }} ref={el} />
             </h2>

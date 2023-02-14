@@ -44,7 +44,7 @@ const Lesson0503 = () => {
             </button>
             <h2 style={{display: 'inline-block'}}>มหาราหุโลวาทสูตร</h2>
           </div>
-          <div>
+          <div className="praise_container">
             <h2>
               <span style={{ whiteSpace: 'pre' }} ref={el} />
             </h2>

@@ -46,7 +46,7 @@ const Lesson0508 = () => {
             </button>
             <h2 style={{display: 'inline-block'}}>อาหารสูตร</h2>
           </div>
-          <div>
+          <div className="praise_container">
             <h2>
               <span style={{ whiteSpace: 'pre' }} ref={el} />
             </h2>

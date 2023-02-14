@@ -47,7 +47,7 @@ const Introduction = () => {
             </button>
             <h2 style={{display: 'inline-block'}}>บทสรรเสริญคุณพระรัตนตรัย</h2>
           </div>
-          <div>
+          <div className="praise_container">
             <h2>
               <span style={{ whiteSpace: 'pre' }} ref={el} />
             </h2>

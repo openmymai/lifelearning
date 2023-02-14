@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Layout = (props) => {
+  const [isNavExpanded, setIsNavExpanded] = useState(false)
+
   return (
     <div>
       <header id="header" className="fixed-top ">
@@ -36,7 +38,7 @@ const Layout = (props) => {
                   <li><a href="/lesson0212">เล่ม 2 บทที่ 12</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="#"><span>บทวิปัสสนาเพิ่มเติม</span> <i class="bi bi-chevron-down"></i></a>
+              <li className="dropdown"><a href="#"><span>บทวิปัสสนาเพิ่มเติม</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                   <li className="dropdown"><a href="#"><span></span>ว่าด้วยความเป็นอนิจจัง ทุกขัง อนัตตา<i className="bi bi-chevron-down"></i></a>
                     <ul>
@@ -118,7 +120,7 @@ const Layout = (props) => {
                 </ul>
               </li>
             </ul>
-            <i className="bi bi-list mobile-nav-toggle"></i>
+            <i className="bi bi-list mobile-nav-toggle" />
           </nav>
         </div>
       </header>
