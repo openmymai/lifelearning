@@ -1,15 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 const Layout = (props) => {
-  const [isNavExpanded, setIsNavExpanded] = useState(false)
-
   return (
     <div>
       <header id="header" className="fixed-top ">
           <Navbar id="navbar" expand="lg">
             <Container fluid>
-              <Navbar.Brand className="mx-2" href="/">Life</Navbar.Brand>
+              <Navbar.Brand className="mx-2" href="/">LifeLearning</Navbar.Brand>
               <Navbar.Toggle aria-controls="navbarScroll" />
               <Navbar.Collapse id="navbarScroll" className="mx-5">
                 <Nav
