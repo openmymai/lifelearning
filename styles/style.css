@@ -29,6 +29,11 @@ body {
   overflow-y: scroll;
   background: #47b2e4;
 }
+
+.center {
+  margin: auto;
+}
+
 a {
   color: #47b2e4;
   text-decoration: none;

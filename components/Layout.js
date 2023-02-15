@@ -9,7 +9,7 @@ const Layout = (props) => {
             <Container fluid>
               <Navbar.Brand className="mx-2" href="/">LifeLearning</Navbar.Brand>
               <Navbar.Toggle aria-controls="navbarScroll" />
-              <Navbar.Collapse id="navbarScroll" className="mx-5">
+              <Navbar.Collapse id="navbarScroll">
                 <Nav
                   className="ms-auto mx-2 my-lg-0"
                   style={{ maxHeight: '100px' }}

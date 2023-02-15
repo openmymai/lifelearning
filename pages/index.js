@@ -12,6 +12,7 @@ const IndexPage = () => {
             <h1>พระพุทธเจ้าสอนอะไร?</h1>
             <h2>ตัวเราเป็นใคร? เกิดมาทำไม? เป้าหมายชีวิตของเราอยู่ที่ไหน?</h2>
             <iframe
+              className="center"
               src="https://youtube.com/embed/Axtd5bY0iCw"
               title="Embed vdo"
               width="70%"
