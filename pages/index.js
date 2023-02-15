@@ -11,6 +11,13 @@ const IndexPage = () => {
           <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
             <h1>พระพุทธเจ้าสอนอะไร?</h1>
             <h2>ตัวเราเป็นใคร? เกิดมาทำไม? เป้าหมายชีวิตของเราอยู่ที่ไหน?</h2>
+            <iframe
+              src="https://youtube.com/embed/Axtd5bY0iCw"
+              title="Embed vdo"
+              width="70%"
+              height="100%"
+              allowFullScreen
+            />
           </div>
           <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
             <Image
