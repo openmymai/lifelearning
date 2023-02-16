@@ -10,9 +10,7 @@ const Layout = (props) => {
               <Navbar.Brand className="mx-2" href="/">LifeLearning</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
-                <Nav
-                  className="ms-auto mx-2 my-lg-0"
-                >
+                <Nav className="me-auto">
                   <Nav.Link href="/">หน้าแรก</Nav.Link>
                   <Nav.Link href="/introduction">บทนำ</Nav.Link>
                   <NavDropdown className="dropdown" title="บทวิปัสสนาภาวนา" id="navbarScrollingDropdown">
