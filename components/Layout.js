@@ -12,8 +12,6 @@ const Layout = (props) => {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav
                   className="ms-auto mx-2 my-lg-0"
-                  style={{ maxHeight: '100px' }}
-                  basic-navbar-nav
                 >
                   <Nav.Link href="/">หน้าแรก</Nav.Link>
                   <Nav.Link href="/introduction">บทนำ</Nav.Link>
