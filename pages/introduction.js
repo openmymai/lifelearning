@@ -37,7 +37,7 @@ const Introduction = () => {
             <button type="button" className="btn btn-primary me-2" onClick={() => typed.current.start()}>Start</button>
             <button type="button" className="btn btn-primary me-2" onClick={() => typed.current.stop()}>Stop</button>
             */}
-            <button type="button" className="btn btn-primary me-2" onClick={() => typed.current.reset()}>
+            <button type="button" className="btn btn-primary me-5" onClick={() => typed.current.reset()}>
               <i className="bi bi-x-lg" />
             </button>
             <a href="/lesson0101">
