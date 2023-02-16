@@ -4,13 +4,13 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 const Layout = (props) => {
   return (
     <div>
-      <header>
-          <Navbar expand="lg">
+      <header className="fixed-top">
+          <Navbar bg="white" expand="lg">
             <Container fluid>
               <Navbar.Brand className="mx-2" href="/">LifeLearning</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto">
+                <Nav className="ms-auto mx-2">
                   <Nav.Link href="/">หน้าแรก</Nav.Link>
                   <Nav.Link href="/introduction">บทนำ</Nav.Link>
                   <NavDropdown className="dropdown" title="บทวิปัสสนาภาวนา" id="navbarScrollingDropdown">
