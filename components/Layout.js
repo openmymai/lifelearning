@@ -4,8 +4,8 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 const Layout = (props) => {
   return (
     <div>
-      <header id="header" className="fixed-top ">
-          <Navbar id="navbar" expand="lg">
+      <header>
+          <Navbar expand="lg">
             <Container fluid>
               <Navbar.Brand className="mx-2" href="/">LifeLearning</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
