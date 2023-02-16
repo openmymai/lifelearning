@@ -43,7 +43,7 @@ const Lesson0206 = () => {
             <button type="button" className="btn btn-primary me-2" onClick={() => typed.current.stop()}>Stop</button>
             */}
             <button type="button" className="btn btn-primary me-5" onClick={() => typed.current.reset()}>
-              <i class="bi bi-x-lg" />
+              <i className="bi bi-x-lg" />
             </button>
             <h2 style={{display: 'inline-block'}}>ฝึกตามทันกายกรรม</h2>
           </div>
