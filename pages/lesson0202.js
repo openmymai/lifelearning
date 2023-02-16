@@ -42,6 +42,11 @@ const Lesson0202 = () => {
             <button type="button" className="btn btn-primary me-5" onClick={() => typed.current.reset()}>
               <i className="bi bi-x-lg" />
             </button>
+            <a href="/lesson0203">
+              <button type="button" className="btn btn-primary me-5">
+                <i className="bi bi-arrow-right-square" />
+              </button>
+            </a>
             <h2 style={{display: 'inline-block'}}>การพิจารณาอินทรีย์ 6</h2>
           </div>
           <div className="praise_container">

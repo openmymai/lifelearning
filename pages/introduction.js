@@ -37,9 +37,14 @@ const Introduction = () => {
             <button type="button" className="btn btn-primary me-2" onClick={() => typed.current.start()}>Start</button>
             <button type="button" className="btn btn-primary me-2" onClick={() => typed.current.stop()}>Stop</button>
             */}
-            <button type="button" className="btn btn-primary me-5" onClick={() => typed.current.reset()}>
+            <button type="button" className="btn btn-primary me-2" onClick={() => typed.current.reset()}>
               <i className="bi bi-x-lg" />
             </button>
+            <a href="/lesson0101">
+              <button type="button" className="btn btn-primary me-5">
+                <i className="bi bi-arrow-right-square" />
+              </button>
+            </a>
             <h2 style={{display: 'inline-block'}}>บทสรรเสริญคุณพระรัตนตรัย</h2>
           </div>
           <div className="praise_container">

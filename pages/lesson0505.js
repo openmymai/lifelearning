@@ -38,6 +38,11 @@ const Lesson0505 = () => {
             <button type="button" className="btn btn-primary me-5" onClick={() => typed.current.reset()}>
               <i className="bi bi-x-lg" />
             </button>
+            <a href="/lesson0506">
+              <button type="button" className="btn btn-primary me-5">
+                <i className="bi bi-arrow-right-square" />
+              </button>
+            </a>
             <h2 style={{display: 'inline-block'}}>อานาปานสติภาวนา</h2>
           </div>
           <div className="praise_container">
