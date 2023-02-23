@@ -43,7 +43,7 @@ const Learning03 = () => {
                 <i className="bi bi-arrow-right-square" />
               </button>
             </a>
-            <h2 style={{display: 'inline-block'}}></h2>
+            <h2 style={{display: 'inline-block'}}>บทที่ 3</h2>
           </div>
           <div className="praise_container">
             <h2>

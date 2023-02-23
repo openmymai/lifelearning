@@ -37,7 +37,7 @@ const Learning14 = () => {
             <button type="button" className="btn btn-primary me-5" onClick={() => typed.current.reset()}>
               <i className="bi bi-x-lg" />
             </button>
-            <h2 style={{display: 'inline-block'}}></h2>
+            <h2 style={{display: 'inline-block'}}>บทที่ 14</h2>
           </div>
           <div className="praise_container">
             <h2>
