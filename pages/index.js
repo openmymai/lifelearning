@@ -158,8 +158,8 @@ const IndexPage = () => {
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0">
             <ul>
-              <li><a href="lesson0104"><i className="bi bi-check-all"></i>ว่าด้วยปฏิจจสมุปบาท</a></li>
-              <li><a href="lesson0105"><i className="bi bi-check-all"></i>พระสุตตันตปิฎก เล่มที่ 9</a></li>
+              <li><a href="lesson0501"><i className="bi bi-check-all"></i>ว่าด้วยปฏิจจสมุปบาท</a></li>
+              <li><a href="lesson0601"><i className="bi bi-check-all"></i>พระสุตตันตปิฎก เล่มที่ 9</a></li>
             </ul>
           </div>
         </div>
