@@ -72,6 +72,5 @@ typings/
 *.tgz
 
 # dotenv environment variables file
-.env
 .next
 out
