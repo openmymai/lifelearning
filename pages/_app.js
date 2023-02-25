@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 import * as gtag from '../lib/gtag';
 import { Analytics } from '@vercel/analytics/react';
