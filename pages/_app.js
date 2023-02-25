@@ -34,6 +34,7 @@ const MyApp = ({ Component, pageProps }) => {
     <>
       <Head>
         <title>Life Learning</title>
+        <link rel="shortcut icon" href="/public/img/favicon.ico" />
         <script 
           async 
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
