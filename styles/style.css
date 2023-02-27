@@ -24,7 +24,7 @@ body {
   padding: 20px 20px;
   margin: 5px;
   border: solid white 1px;
-  border-radius: 5px;
+  border-radius: 10px;
   overflow-x: hidden;
   overflow-y: scroll;
   background: #47b2e4;
@@ -69,7 +69,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  background: #47b2e4;
 }
 
 #preloader:before {
@@ -117,7 +117,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #47b2e4;
+  background: #87f0b3;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -360,7 +360,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #aaf6ca;
+  color: #87f0b3;
 }
 
 .navbar-mobile .dropdown ul {
@@ -1911,60 +1911,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
-}
-
-#footer .footer-newsletter {
-  padding: 50px 0;
-  background: #f3f5fa;
-  text-align: center;
-  font-size: 15px;
-  color: #444444;
-}
-
-#footer .footer-newsletter h4 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 600;
-  color: #37517e;
-}
-
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
-  text-align: left;
-}
-
-#footer .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
-
-#footer .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
   background: #47b2e4;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-#footer .footer-newsletter form input[type=submit]:hover {
-  background: #209dd8;
 }
 
 #footer .footer-top {

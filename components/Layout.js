@@ -25,12 +25,16 @@ const useWindowSize = () => {
 
 const Layout = (props) => {
   const [ navbarOpen, setNavbarOpen ] = useState(false);
+  const [ scroll, setScroll ] = useState(false);
+
   const size = useWindowSize();
   const ref = useRef();
 
   useEffect(() => {
-    
-  }, []);
+    window.addEventListener('scroll', () => {
+      setScroll(window.scrollY > 100);
+    });
+  },[]);
 
   return (
     <div>
@@ -55,6 +59,48 @@ const Layout = (props) => {
       <div>
         {props.children}
       </div>
+      <footer id="footer">
+
+      <div className="footer-top">
+        <div className="container">
+          <div className="row">
+
+            <div className="col-lg-6">
+              <h3>พระพุทธเจ้าสอนอะไร?</h3>
+              <h5>
+                ปัญญา ศีล สมาธิ<br />
+                เป็นคำสอนของพระพุทธเจ้า<br />
+                นำไปปฏิบัติอย่างไร?<br /><br />
+
+                เชียงใหม่, Chiang Mai<br />
+                ประเทศไทย, Thailand<br /><br />
+              </h5>
+            </div>
+
+            <div className="col-lg-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i className="bi bi-chevron-right"></i><a className="nav-link" href="/#hero">หน้าแรก</a></li>
+                <li><i className="bi bi-chevron-right"></i><a className="nav-link" href="/#about">บทวิปัสสนาภาวนา</a></li>
+                <li><i className="bi bi-chevron-right"></i><a className="nav-link" href="/#services">หลักสูตรอนาคามีผล</a></li>
+                <li><i className="bi bi-chevron-right"></i><a className="nav-link" href="/#portfolio">บทวิปัสสนาภาวนาเพิ่มเติม</a></li>
+                <li><i className="bi bi-chevron-right"></i><a className="nav-link" href="/#team">บทนำไปใช้ในชีวิตประจำวัน</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div className="container footer-bottom clearfix">
+        <div className="credits">
+          Designed by Sirisak Chantanate
+        </div>
+      </div>
+    </footer>
+
+    
+    <a href="#" className={`back-to-top d-flex align-items-center justify-content-center${scroll ? ' active' : ''}`}><i className="bi bi-arrow-up-short" /></a>
     </div>
   );
 }

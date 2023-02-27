@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 
 const IndexPage = () => {
-
   return (
   <div>
     <section id="hero" className="d-flex align-items-center">
@@ -31,6 +30,7 @@ const IndexPage = () => {
         </div>
       </div>
     </section>
+
     <main id="main">
       <section id="clients" className="clients section-bg">
         <div className="container">
@@ -169,11 +169,12 @@ const IndexPage = () => {
 
     <section id="team" className="team section-bg">
       <div className="container" data-aos="fade-up">
-      <div className="row content">
-          <div className="section-title">
-            <h2>บทนำไปใช้ในชีวิตประจำวัน</h2>
-          </div>
-          <div className="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+        <div className="section-title">
+          <h2>บทนำไปใช้ในชีวิตประจำวัน</h2>
+        </div>
+        <div className="row content">
+
+          <div className="col-lg-3 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
             <ul>
               <li><a href="learning01"><i className="bi bi-check-all"></i>บทที่ 1</a></li>
               <li><a href="learning02"><i className="bi bi-check-all"></i>บทที่ 2</a></li>
@@ -182,6 +183,10 @@ const IndexPage = () => {
               <li><a href="learning05"><i className="bi bi-check-all"></i>บทที่ 5</a></li>
               <li><a href="learning06"><i className="bi bi-check-all"></i>บทที่ 6</a></li>
               <li><a href="learning07"><i className="bi bi-check-all"></i>บทที่ 7</a></li>
+            </ul>
+          </div>
+          <div className="col-lg-3 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <ul>
               <li><a href="learning08"><i className="bi bi-check-all"></i>บทที่ 8</a></li>
               <li><a href="learning09"><i className="bi bi-check-all"></i>บทที่ 9</a></li>
               <li><a href="learning10"><i className="bi bi-check-all"></i>บทที่ 10</a></li>
@@ -191,7 +196,7 @@ const IndexPage = () => {
               <li><a href="learning14"><i className="bi bi-check-all"></i>บทที่ 14</a></li>
             </ul>
           </div>
-          <div className="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="100">
+          <div className="col-lg-3 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="100">
             <Image 
               src="/img/lotus.png" 
               className="img-fluid" 
