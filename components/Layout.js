@@ -94,8 +94,8 @@ const Layout = (props) => {
 
       <div className="container footer-bottom clearfix">
         <div className="credits">
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> &nbsp;
-          Implement using <a href="https://nextjs.org/">NextJS</a>
+          Designed by <a href="https://bootstrapmade.com/">Bootstrapmade</a> &nbsp;
+          Implement using <a href="https://nextjs.org/">NextJS</a>&nbsp; 
           by <a href="https://openmymai.github.io">Sirisak Chantanate (Mai)</a>
         </div>
       </div>
