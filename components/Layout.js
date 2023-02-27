@@ -94,13 +94,17 @@ const Layout = (props) => {
 
       <div className="container footer-bottom clearfix">
         <div className="credits">
-          Designed by Sirisak Chantanate
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> &nbsp;
+          Implement using NextJS by <a href="https://openmymai.github.io">Sirisak Chantanate (Mai)</a>
         </div>
       </div>
     </footer>
 
     
-    <a href="#" className={`back-to-top d-flex align-items-center justify-content-center${scroll ? ' active' : ''}`}><i className="bi bi-arrow-up-short" /></a>
+    <a href="#" className={`back-to-top d-flex align-items-center justify-content-center${scroll ? ' active' : ''}`}>
+      <i className="bi bi-arrow-up-short" />
+    </a>
+
     </div>
   );
 }
