@@ -3,7 +3,7 @@ import React from 'react';
 const Life08 = () => {
   return (
     <div>
-      <section id="hero2" className="team section-bg">
+      <section id="hero2" className="d-flex">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
             <h2>ไตรสิกขาในพระไตรปิฎกเข้าใจถูกต้องแล้วหรือ?</h2>

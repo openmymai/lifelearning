@@ -3,7 +3,7 @@ import React from 'react';
 const Life11 = () => {
   return (
     <div>
-      <section id="hero2" className="team section-bg">
+      <section id="hero2" className="d-flex">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
             <h2>วิปัสสนาดับทุกข์และสร้างสุขถาวรได้อย่างไร?</h2>

@@ -26,7 +26,7 @@ const Lesson0308 = () => {
   }, [])
   return (
     <div>
-      <section id="hero2" className="team section-bg">
+      <section id="hero2" className="d-flex">
         <div className="container" data-aos="fade-up">
           <div>
             <button type="button" className="btn btn-primary me-2" onClick={() => typed.current.toggle()}>
