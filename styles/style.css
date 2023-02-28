@@ -39,6 +39,15 @@ p {
   text-align: justify;
 }
 
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  width: 5%;
+  margin: auto;
+}
+
 a {
   color: #47b2e4;
   text-decoration: none;
