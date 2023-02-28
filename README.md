@@ -1,4 +1,7 @@
 # Lifelearning, Modern NextJS website
+
+Clone from [bootstrapmade.com](https://bootstrapmade.com/)
+
 - NextJS
 - TypedJS
 - AOS
