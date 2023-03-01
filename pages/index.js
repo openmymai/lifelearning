@@ -1,7 +1,27 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
+import Typed from 'typed.js';
 
 const IndexPage = () => {
+  const el = useRef(null);
+  const typed = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      strings: [
+        'ตัวเราเป็นใคร? เกิดมาทำไม? เป้าหมายชีวิตของเราอยู่ที่ไหน?',
+      ],
+      typeSpeed: 60,
+      backSpeed: 0,
+      loop: true,
+    };
+    typed.current = new Typed(el.current, options)
+
+    return () => {
+      typed.current.destroy();
+    }
+  },[]);
+
   return (
   <div>
     <section id="hero" className="d-flex align-items-center">
@@ -9,7 +29,7 @@ const IndexPage = () => {
         <div className="row">
           <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
             <h1>พระพุทธเจ้าสอนอะไร?</h1>
-            <h2>ตัวเราเป็นใคร? เกิดมาทำไม? เป้าหมายชีวิตของเราอยู่ที่ไหน?</h2>
+            <h2><span style={{ whiteSpace: 'pre' }} ref={el} /></h2>
             <a href="life01">
               <h2>
               <span>ปัญญา ศีล สมาธิ</span><br />
