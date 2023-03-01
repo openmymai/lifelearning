@@ -61,6 +61,7 @@ const IndexPage = () => {
             <div className="section-title">
               <h2>พระพุทธเจ้าสอนอะไร?</h2>
             </div>
+            <div><h2><a href="https://www.youtube.com/channel/UCNyi06GbM49kasvouCD9qvQ?sub_confirmation=1">Subscribe <i className="bi bi-youtube" /></a></h2></div>
             <div className="col-sm align-items-center justify-content-center">
               <iframe
                 src="https://youtube.com/embed/Axtd5bY0iCw"
