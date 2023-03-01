@@ -45,8 +45,8 @@ const IndexPage = () => {
             <Image
               src="/img/lotuspng.png"
               alt="lotus"
-              width={600}
-              height={300}
+              width={500}
+              height={686}
             />
           </div>
         </div>
