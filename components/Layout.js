@@ -67,14 +67,16 @@ const Layout = (props) => {
 
             <div className="col-lg-6">
               <h3>พระพุทธเจ้าสอนอะไร?</h3>
-              <h5>
+              <h5><a href="/life01">
                 ปัญญา ศีล สมาธิ<br />
                 เป็นคำสอนของพระพุทธเจ้า<br />
                 นำไปปฏิบัติอย่างไร?<br /><br />
-
+                </a>
+              </h5>
+              <h6>
                 เชียงใหม่, Chiang Mai<br />
                 ประเทศไทย, Thailand<br /><br />
-              </h5>
+              </h6>
             </div>
 
             <div className="col-lg-6 footer-links">

@@ -32,7 +32,7 @@ const IndexPage = () => {
           <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
             <h1>พระพุทธเจ้าสอนอะไร?</h1>
             <h2><span style={{ whiteSpace: 'pre' }} ref={el} /></h2>
-            <a href="life01">
+            <a href="/life01">
               <h2>
               <span>ปัญญา ศีล สมาธิ</span><br />
               <span>เป็นคำสอนของพระพุทธเจ้า</span><br />
