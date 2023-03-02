@@ -14,7 +14,7 @@ const IndexPage = () => {
         'เป้าหมายชีวิตของเราอยู่ที่ไหน?',
       ],
       typeSpeed: 60,
-      backSpeed: 0,
+      backSpeed: 40,
       loop: true,
     };
     typed.current = new Typed(el.current, options)
