@@ -126,7 +126,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #87f0b3;
+  background: #47b2e4;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -140,7 +140,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #6bc1e9;
+  background: #47b2e4;
   color: #fff;
 }
 
@@ -1920,7 +1920,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #87f0b3;
+  background: #000;
 }
 
 #footer .footer-top {
