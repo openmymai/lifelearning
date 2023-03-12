@@ -64,7 +64,7 @@ const IndexPage = () => {
             <div><h2><a href="https://www.youtube.com/channel/UCNyi06GbM49kasvouCD9qvQ?sub_confirmation=1">Subscribe <i className="bi bi-youtube" /></a></h2></div>
             <div className="col-sm align-items-center justify-content-center">
               <iframe
-                src="https://youtube.com/embed/2diYsYJ2Kcc"
+                src="https://youtube.com/embed/CfSU0INe4vY"
                 title="Embed vdo"
                 allowFullScreen
               />
