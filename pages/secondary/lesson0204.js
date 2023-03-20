@@ -34,7 +34,7 @@ const Lesson0204 = () => {
             ไม่มีตัวตน สัตว์ บุคคล ชื่อ สิ่งของในใจคิดนึกที่คิดนึก<br />
             ความจริงเป็นธรรมชาติชนิดหนึ่ง ไม่เที่ยงเกิดดับดับไม่เหลือ<br /><br /><hr /><br />
             </h4>
-            <a href="/secondary/lesson0203">
+            <a href="/secondary/lesson0205">
               <button type="button" className="btn btn-primary me-5">
                 <i className="bi bi-arrow-right-square" /> &nbsp;
                 วิปัสสนาภาวนา พิจารณาขันธ์ 5 อินทรีย์ 6

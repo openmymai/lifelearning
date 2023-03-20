@@ -70,7 +70,7 @@ const Lesson0210 = () => {
             ภายในหรือภายนอก หยาบหรือละเอียด เลวหรือประณีต ไกลหรือใกล้<br />
             ทั้งหมดเป็นธรรมชาติชนิดหนึ่ง ไม่เที่ยงเกิดดับ ดับไม่เหลือเหมือนกัน<br /><br /><hr /><br />
             </h4>
-            <a href="/secondary/lesson0203">
+            <a href="/secondary/lesson0211">
               <button type="button" className="btn btn-primary me-5">
                 <i className="bi bi-arrow-right-square" /> &nbsp;
                 โลกและชีวิตความรู้สึกเป็นอันเดียวกัน

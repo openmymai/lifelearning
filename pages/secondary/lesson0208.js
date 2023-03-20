@@ -90,7 +90,7 @@ const Lesson0208 = () => {
             แม้ธรรมเหล่านี้ก็หวั่นไหว และอาพาธ ไม่เที่ยง มีความแปรปรวน มีความเป็นอย่างอื่น<br />
             มโนวิญญาณย่อมเกิดขึ้น เพราะอาศัยส่วนสองอย่างด้วยประการฉะนี้แล<br /><br /><hr /><br />
             </h4>
-            <a href="/secondary/lesson0203">
+            <a href="/secondary/lesson0209">
               <button type="button" className="btn btn-primary me-5">
                 <i className="bi bi-arrow-right-square" /> &nbsp;
                 กำหนดรู้ธรรมที่เนื่องด้วยอายตนะ 6

@@ -69,7 +69,7 @@ const Lesson0211 = () => {
             การเคลื่อนไหว โลกและชีวิตความรู้สึก เป็นธรรมชาติชนิดหนึ่ง ไม่เที่ยงเกิดดับ<br /><br /><br />
             นี่คือผลต่อเนื่องของโลกและชีวิต กำหนดรู้ว่าทั้งหมดเป็นธรรมชาติชนิดหนึ่ง ไม่เที่ยงเกิดดับ<br /><br /><hr /><br />
             </h4>
-            <a href="/secondary/lesson0203">
+            <a href="/secondary/lesson0212">
               <button type="button" className="btn btn-primary me-5">
                 <i className="bi bi-arrow-right-square" /> &nbsp;
                 โลกและชีวิตความรู้สึกเป็นอันเดียวกัน + ชื่อ

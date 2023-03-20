@@ -65,7 +65,7 @@ const Lesson0206 = () => {
             ความจริงเป็นธรรมชาติชนิดหนึ่ง ไม่เที่ยงเกิดดับ ดับไม่เหลือเหมือนกัน<br />
             กำหนดรู้สุขถาวรเกิดขึ้นแล้ว เก็บสุขถาวรไว้ทันที<br /><br /><hr /><br />
             </h4>
-            <a href="/secondary/lesson0203">
+            <a href="/secondary/lesson0207">
               <button type="button" className="btn btn-primary me-5">
                 <i className="bi bi-arrow-right-square" /> &nbsp;
                 องค์ประกอบของโลกและชีวิต + กำหนดรู้ธาตุ 6

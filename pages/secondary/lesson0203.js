@@ -58,7 +58,7 @@ const Lesson0203 = () => {
             ไม่มีตัวตนเป็นของตนเอง ดังนั้นโลกนี้จึงว่างเปล่า จากตนหรือจากของๆตน<br />
             ไม่มีวัตถุ สิ่งของ สัตว์ บุคคล ที่จะไปยึดมั่นถือมั่น ว่านั่นเป็นของเรา เป็นเรา เป็นตัวตนของเรา ไม่เที่ยงเกิดดับ ดับไม่เหลือ<br /><br /><hr /><br />
             </h4>
-            <a href="/secondary/lesson0203">
+            <a href="/secondary/lesson0204">
               <button type="button" className="btn btn-primary me-5">
                 <i className="bi bi-arrow-right-square" /> &nbsp;
                 กำหนดรู้อินทรีย์ 6 ตามความเป็นจริง
