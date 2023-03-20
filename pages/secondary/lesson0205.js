@@ -34,7 +34,7 @@ const Lesson0205 = () => {
             โลกและชีวิต เป็นธรรมชาติชนิดหนึ่ง ไม่เที่ยงเกิดดับ ดับไม่เหลือ<br />
             เวทนา สัญญา สังขาร วิญญาณ เป็นธรรมชาติชนิดหนึ่ง ไม่เที่ยงเกิดดับ ดับไม่เหลือเหมือนกัน<br /><br /><hr /><br />
             </h4>
-            <a href="/secondary/lesson0203">
+            <a href="/secondary/lesson0206">
               <button type="button" className="btn btn-primary me-5">
                 <i className="bi bi-arrow-right-square" /> &nbsp;
                 วิปัสสนาภาวนา พิจารณาขันธ์ 5 อินทรีย์ 6
