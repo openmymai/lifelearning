@@ -54,7 +54,7 @@ const Lesson0302 = () => {
             รู้ชัดว่าชาติสิ้นแล้ว พรหมจรรย์อยู่จบแล้ว กิจที่ควรทำ ทำเสร็จแล้ว<br />
             กิจอื่นเพื่อความเป็นอย่างนี้มิได้มี<br /><br /><hr /><br />
             </h4>
-            <a href="/third/lesson0302">
+            <a href="/third/lesson0303">
               <button type="button" className="btn btn-primary me-5">
                 <i className="bi bi-arrow-right-square" /> &nbsp;
                 ว่าด้วยความเป็นอนัตตาแห่งอายตนะภายใน

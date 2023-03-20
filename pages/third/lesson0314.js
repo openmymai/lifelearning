@@ -50,7 +50,7 @@ const Lesson0314 = () => {
             การกระทำที่สุดแห่งทุกข์ได้แล้ว<br />
             เพราะละมานะได้โดยชอบ<br /><br /><hr /><br />
             </h4>
-            <a href="/third/lesson0313">
+            <a href="/third/lesson0315">
               <button type="button" className="btn btn-primary me-5">
                 <i className="bi bi-arrow-right-square" /> &nbsp;
                 ว่าด้วยการกระทำที่สุดทุกข์

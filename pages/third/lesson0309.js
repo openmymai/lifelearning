@@ -69,7 +69,7 @@ const Lesson0309 = () => {
             สัมมาวิมุติ ความหลุดพ้นชอบ<br />
             นี้เรียกว่าสิ่งที่ดี<br /><br /><hr /><br />  
             </h4>
-            <a href="/third/lesson0302">
+            <a href="/third/lesson0310">
               <button type="button" className="btn btn-primary me-5">
                 <i className="bi bi-arrow-right-square" /> &nbsp;
                 ถ้ามีคนพึงถามอย่างนี้ว่า (ต่อ)

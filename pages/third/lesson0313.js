@@ -42,7 +42,7 @@ const Lesson0313 = () => {
             เพราะอาศัยผัสสะที่เกิดแต่ปัจจัยนั้น<br />
             ย่อมดับไปเพราะผัสสะที่เกิดปัจจัยนั้นดับไป<br /><br /><hr /><br />
             </h4>
-            <a href="/third/lesson0313">
+            <a href="/third/lesson0314">
               <button type="button" className="btn btn-primary me-5">
                 <i className="bi bi-arrow-right-square" /> &nbsp;
                 ว่าด้วยการกระทำที่สุดทุกข์

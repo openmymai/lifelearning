@@ -46,7 +46,7 @@ const Lesson0307 = () => {
             ไม่ควรไปยึดมั่นถือมั่น ว่านั่นเป็นของเรา เป็นเรา เป็นตัวตนของเรา ไม่เที่ยงเกิดดับ ดับไม่เหลือ<br />
             ว่างเปล่าจากตน หรือจากของของตน<br /><br /><hr /><br />    
             </h4>
-            <a href="/third/lesson0302">
+            <a href="/third/lesson0308">
               <button type="button" className="btn btn-primary me-5">
                 <i className="bi bi-arrow-right-square" /> &nbsp;
                 ว่าด้วยทรงแสดงธรรมเพื่อความเป็นผู้อยู่ผู้เดียว
