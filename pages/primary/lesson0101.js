@@ -6,7 +6,7 @@ const Lesson0101 = () => {
       <section id="hero2" className="d-flex">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
-            <h2>วิปัสสนาภาวนา พิจารณาขันธ์ 5 อินทรีย์ 6</h2>
+            <h2>ตามทันตัวเรา</h2>
           </div>
             <h4>
             ตาเห็นรูป รูปไม่เที่ยงเกิดดับ ตัวฉันไม่เที่ยงเกิดดับ<br />
@@ -67,6 +67,12 @@ const Lesson0101 = () => {
             ทั้งหมดเป็นธรรมชาติชนิดหนึ่ง เกิดจากเหตุปัจจัย มาประชุมปรุงแต่งชั่วคราว กำลังจะแตกสลาย<br />
             ไม่มีตัวตนเป็นของตนเอง ไม่ควรไปยึดมั่นถือมั่น ว่าสิ่งนั้นเป็นของเรา เป็นเรา เป็นตัวตนของเรา ไม่เที่ยงเกิดดับ<br /><br /><hr /><br />
             </h4>
+            <a href="/primary/lesson0102">
+              <button type="button" className="btn btn-primary me-5">
+                <i className="bi bi-arrow-right-square" /> &nbsp;
+                ว่าด้วยความเป็นอนิจจังแห่งอายตนะภายใน
+              </button>
+            </a>
         </div>
       </section>
     </div>

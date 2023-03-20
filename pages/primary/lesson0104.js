@@ -52,6 +52,12 @@ const Lesson0104 = () => {
             ไม่มีตัวตนเป็นของตนเอง ไม่ควรไปยึดมั่นถือมั่นว่าสิ่งนั้น เป็นของเรา เป็นเรา เป็นตัวตนของเรา ไม่เที่ยงเกิดดับ<br />
             กำหนดรู้ผลต่อเนื่องของใจคิดนึก โลกและชีวิตเป็นธรรมชาติชนิดหนึ่ง ไม่เที่ยงเกิดดับ<br /><br /><hr /><br />
             </h4>
+            <a href="/primary/lesson0105">
+              <button type="button" className="btn btn-primary me-5">
+                <i className="bi bi-arrow-right-square" /> &nbsp;
+                การพิจารณาอินทรีย์ 6 และขันธ์ 5
+              </button>
+            </a>
         </div>
       </section>
     </div>

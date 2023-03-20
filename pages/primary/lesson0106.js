@@ -223,6 +223,12 @@ const Lesson0106 = () => {
             ไม่เที่ยง เป็นทุกข์ เป็นอนัตตา<br />
             ไม่มีตัวตนเป็นของตนเอง ไม่ควรไปยึดมั่นถือมั่นว่า สิ่งนั้นเป็นของเรา เป็นเรา เป็นตัวตนของเรา ไม่เที่ยงเกิดดับ<br /><br /><hr /><br />
             </h4>
+            <a href="/secondary/lesson0201">
+              <button type="button" className="btn btn-primary me-5">
+                <i className="bi bi-arrow-right-square" /> &nbsp;
+                การพิจารณาอินทรีย์ 6 และขันธ์ 5
+              </button>
+            </a>
         </div>
       </section>
     </div>

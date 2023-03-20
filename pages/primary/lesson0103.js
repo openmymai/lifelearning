@@ -108,6 +108,12 @@ const Lesson0103 = () => {
             อุปทานขันธ์ 5 เป็นธรรมชาติชนิดหนึ่ง เกิดจากเหตุปัจจัย มาประชุมปรุงแต่งชั่วคราว แล้วแตกสลาย<br />
             ไม่มีตัวตนเป็นของตนเอง ไม่ควรไปยึดมั่นถือมั่น ว่าสิ่งนั้นเป็นของเรา เป็นเรา เป็นตัวตนของเรา ไม่เที่ยงเกิดดับ<br /><br /><hr /><br />
             </h4>
+            <a href="/primary/lesson0104">
+              <button type="button" className="btn btn-primary me-5">
+                <i className="bi bi-arrow-right-square" /> &nbsp;
+                การพิจารณาอินทรีย์ 6
+              </button>
+            </a>
         </div>
       </section>
     </div>

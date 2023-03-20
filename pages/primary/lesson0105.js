@@ -6,7 +6,7 @@ const Lesson0105 = () => {
       <section id="hero2" className="d-flex">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
-            <h2>การพิจารณาอินทรีย์ 6 และขันธ์ 5</h2>
+            <h2>ฝึกเอาความจริงไปใช้</h2>
           </div>
             <h4>
             ตาเห็นรูป รูปไม่เที่ยงเกิดดับ จักขุไม่เที่ยงเกิดดับ รูปไม่เที่ยงเกิดดับ<br />
@@ -136,6 +136,12 @@ const Lesson0105 = () => {
             มือจับไม่มีตัวตนเป็นของตนเอง กำลังจะแตกสลาย ไม่เที่ยงเกิดดับ จริงไหม...จริง<br />
             ตัวฉันไม่เที่ยงเกิดดับ ตัวฉันไม่มีตัวตนเป็นอขงตนเอง กำลังจะแตกสลาย ไม่เที่ยงเกิดดับ จริงไหม...จริง<br /><br /><hr /><br />
             </h4>
+            <a href="/primary/lesson0106">
+              <button type="button" className="btn btn-primary me-5">
+                <i className="bi bi-arrow-right-square" /> &nbsp;
+                การพิจารณาอินทรีย์ 6 และขันธ์ 5
+              </button>
+            </a>
         </div>
       </section>
     </div>

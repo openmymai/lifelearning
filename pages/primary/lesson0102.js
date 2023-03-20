@@ -70,6 +70,12 @@ const Lesson0102 = () => {
               ถุงเท้าเกิดจากเหตุปัจจัย มาประชุมปรุงแต่งชั่วคราว แล้วแตกสลาย<br />
               ตัวฉันไม่เที่ยงเกิดดับ ตัวฉันเกิดจากเหตุปัจจัย มาประชุมปรุงแต่งชั่วคราว แล้วแตกสลาย<br /><br /><hr /><br />
             </h4>
+            <a href="/primary/lesson0103">
+              <button type="button" className="btn btn-primary me-5">
+                <i className="bi bi-arrow-right-square" /> &nbsp;
+                ฝึกเห็นตามจริง
+              </button>
+            </a>
         </div>
       </section>
     </div>
