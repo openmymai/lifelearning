@@ -1,54 +1,27 @@
-import React, { useEffect, useRef } from 'react';
-import Typed from 'typed.js';
+import React from 'react';
 
 const Lesson0401 = () => {
-
-  const el = useRef(null)
-  const typed = useRef(null)
-  useEffect(() => {
-    const options = {
-      strings: [
-        'ตาเห็นรูป\nรูปไม่เที่ยงเกิดดับ\nตัวฉันไม่เที่ยงเกิดดับ\nหูได้ยินเสียง\nเสียงไม่เที่ยงเกิดดับ\nตัวฉันไม่เที่ยงเกิดดับ\nจมูกได้กลิ่น\nกลิ่นไม่เที่ยงเกิดดับ\nตัวฉันไม่เที่ยงเกิดดับ\nลิ้นได้รส\nรสไม่เที่ยงเกิดดับ\nตัวฉันไม่เที่ยงเกิดดับ\nกายสัมผัส\nไม่เที่ยงเกิดดับ\nตัวฉันไม่เที่ยงเกิดดับ\nใจคิดนึก\nไม่เที่ยงเกิดดับ\nตัวฉันไม่เที่ยงเกิดดับ'
-      ],
-      typeSpeed: 60,
-      fadeOut: true,
-      fadeOutDelay: 0,
-      loop: true,
-    };
-
-    typed.current = new Typed(el.current, options)
-
-    return () => {
-      typed.current.destroy()
-    }
-  }, [])
   return (
     <div>
       <section id="hero2" className="d-flex">
         <div className="container" data-aos="fade-up">
-          <div>
-            <button type="button" className="btn btn-primary me-2" onClick={() => typed.current.toggle()}>
-              <i className="bi bi-pause-fill" />
-            </button>
-            {/*
-            <button type="button" className="btn btn-primary me-2" onClick={() => typed.current.start()}>Start</button>
-            <button type="button" className="btn btn-primary me-2" onClick={() => typed.current.stop()}>Stop</button>
-            */}
-            <button type="button" className="btn btn-primary me-5" onClick={() => typed.current.reset()}>
-              <i className="bi bi-x-lg" />
-            </button>
-            <a href="/lesson0402">
+          <div className="section-title">
+            <h2>ตามทันตัวเรา</h2>
+          </div>
+            <h4>
+            ตาเห็นรูป รูปไม่เที่ยงเกิดดับ ตัวฉันไม่เที่ยงเกิดดับ<br />
+            หูได้ยินเสียง เสียงไม่เที่ยงเกิดดับ ตัวฉันไม่เที่ยงเกิดดับ<br />
+            จมูกได้กลิ่น กลิ่นไม่เที่ยงเกิดดับ ตัวฉันไม่เที่ยงเกิดดับ<br />
+            ลิ้นได้รส รสไม่เที่ยงเกิดดับ ตัวฉันไม่เที่ยงเกิดดับ<br />
+            กายสัมผัส ไม่เที่ยงเกิดดับ ตัวฉันไม่เที่ยงเกิดดับ<br />
+            ใจคิดนึก ไม่เที่ยงเกิดดับ ตัวฉันไม่เที่ยงเกิดดับ<br /><br /><hr /><br />
+            </h4>
+            <a href="/forth/lesson0402">
               <button type="button" className="btn btn-primary me-5">
-                <i className="bi bi-arrow-right-square" />
+                <i className="bi bi-arrow-right-square" /> &nbsp;
+                อดีต อนาคต ปัจจุบัน อนิจจสูตร
               </button>
             </a>
-            <h2 style={{display: 'inline-block'}}>พิจารณาขันธ์ 5 อินทรีย์ 6</h2>
-          </div>
-          <div className="praise_container">
-            <h2>
-              <span style={{ whiteSpace: 'pre' }} ref={el} />
-            </h2>
-          </div>
         </div>
       </section>
     </div>
