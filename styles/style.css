@@ -117,6 +117,39 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Click to bottom
+--------------------------------------------------------------*/
+.click-to-bottom {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 100px;
+  z-index: 996;
+  background: #47b2e4;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.click-to-bottom i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+
+.click-to-bottom:hover {
+  background: #47b2e4;
+  color: #fff;
+}
+
+.click-to-bottom.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {

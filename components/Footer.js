@@ -9,7 +9,7 @@ const Footer = () => {
 
             <div className="col-lg-6">
               <h3>พระพุทธเจ้าสอนอะไร?</h3>
-              <h5><a href="/life01">
+              <h5><a href="/buddhateaching/life01">
                 ปัญญา ศีล สมาธิ<br />
                 เป็นคำสอนของพระพุทธเจ้า<br />
                 นำไปปฏิบัติอย่างไร?<br /><br />
