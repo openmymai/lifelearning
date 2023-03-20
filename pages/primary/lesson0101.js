@@ -70,7 +70,7 @@ const Lesson0101 = () => {
             <a href="/primary/lesson0102">
               <button type="button" className="btn btn-primary me-5">
                 <i className="bi bi-arrow-right-square" /> &nbsp;
-                ว่าด้วยความเป็นอนิจจังแห่งอายตนะภายใน
+                ตามทันตัวเรา
               </button>
             </a>
         </div>

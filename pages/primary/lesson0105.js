@@ -139,7 +139,7 @@ const Lesson0105 = () => {
             <a href="/primary/lesson0106">
               <button type="button" className="btn btn-primary me-5">
                 <i className="bi bi-arrow-right-square" /> &nbsp;
-                การพิจารณาอินทรีย์ 6 และขันธ์ 5
+                ฝึกเอาความจริงไปใช้
               </button>
             </a>
         </div>
