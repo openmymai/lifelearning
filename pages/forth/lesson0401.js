@@ -6,7 +6,7 @@ const Lesson0401 = () => {
       <section id="hero2" className="d-flex">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
-            <h2>ตามทันตัวเรา</h2>
+            <h2>วิปัสสนาภาวนา พิจารณาขันธ์ 5 อินทรีย์ 6</h2>
           </div>
             <h4>
             ตาเห็นรูป รูปไม่เที่ยงเกิดดับ ตัวฉันไม่เที่ยงเกิดดับ<br />
