@@ -1,13 +1,15 @@
 import React from 'react';
-import AutoScroll from '../../components/AutoScroll';
 
 const Learning = () => {
+
   return (
     <div>
       <section id="hero2" className="d-flex">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
-            <h2>กำหนดรู้ รู้ทันสิ่งที่มากระทบสัมผัส</h2>
+            <h2>
+              กำหนดรู้ รู้ทันสิ่งที่มากระทบสัมผัส
+            </h2>
           </div>
             <h4>
             ไม่เที่ยงเกิดดับ ตัวฉันเกิดขึ้น ตั้งอยู่ ดับไป<br />
