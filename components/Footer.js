@@ -25,9 +25,9 @@ const Footer = () => {
               <h4>Useful Links</h4>
               <ul>
                 <li><i className="bi bi-chevron-right"></i><a className="nav-link" href="/#hero">หน้าแรก</a></li>
-                <li><i className="bi bi-chevron-right"></i><a className="nav-link" href="/#about">บทวิปัสสนาภาวนา</a></li>
+                <li><i className="bi bi-chevron-right"></i><a className="nav-link" href="/#primary">บทวิปัสสนาภาวนา</a></li>
                 <li><i className="bi bi-chevron-right"></i><a className="nav-link" href="/#services">หลักสูตรอนาคามีผล</a></li>
-                <li><i className="bi bi-chevron-right"></i><a className="nav-link" href="/#portfolio">บทวิปัสสนาภาวนาเพิ่มเติม</a></li>
+                <li><i className="bi bi-chevron-right"></i><a className="nav-link" href="/#additional">บทวิปัสสนาภาวนาเพิ่มเติม</a></li>
                 <li><i className="bi bi-chevron-right"></i><a className="nav-link" href="/#team">บทนำไปใช้ในชีวิตประจำวัน</a></li>
               </ul>
             </div>
