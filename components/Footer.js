@@ -15,6 +15,11 @@ const Footer = () => {
                 นำไปปฏิบัติอย่างไร?<br /><br />
                 </a>
               </h5>
+              <h5>
+                <a href="https://youtube.com/playlist?list=PLkszHNgmI1k9johLnMfvs-7QMcLocNGWA">
+                เสียงอ่านพระไตรปิฎก
+                </a>
+              </h5>
               <h6>
                 เชียงใหม่, Chiang Mai<br />
                 ประเทศไทย, Thailand<br /><br />
