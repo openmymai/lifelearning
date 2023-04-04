@@ -13,7 +13,7 @@ const Client = () => {
           <div><h2><a href="https://www.youtube.com/channel/UCNyi06GbM49kasvouCD9qvQ?sub_confirmation=1">Subscribe <i className="bi bi-youtube" /></a></h2></div>
           <div className="col-sm align-items-center justify-content-center">
             <iframe
-              src="https://youtube.com/embed/CfSU0INe4vY"
+              src="https://youtube.com/embed/23dJ_aJ06rA"
               title="Embed vdo"
               allowFullScreen
             />
@@ -21,7 +21,7 @@ const Client = () => {
 
           <div className="col-sm align-items-center justify-content-center">
             <iframe
-              src="https://youtube.com/embed/Al7cfmeV1Sk"
+              src="https://youtube.com/embed/IVCo0yodpjk"
               title="Embed vdo"
               allowFullScreen
             />
@@ -29,7 +29,7 @@ const Client = () => {
 
           <div className="col-sm align-items-center justify-content-center">
             <iframe
-              src="https://youtube.com/embed/ZqfL0o_51YM"
+              src="https://youtube.com/embed/h1f05GKNRow"
               title="Embed vdo"
               allowFullScreen
             />
@@ -37,7 +37,7 @@ const Client = () => {
 
           <div className="col-sm align-items-center justify-content-center">
             <iframe
-              src="https://youtube.com/embed/m9YsNEQNXgs"
+              src="https://youtube.com/embed/XS-KvxMiEWY"
               title="Embed vdo"
               allowFullScreen
             />
