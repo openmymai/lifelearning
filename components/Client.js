@@ -18,7 +18,7 @@ const Client = () => {
               allowFullScreen
             />
           </div>
-
+        {/*
           <div className="col-sm align-items-center justify-content-center">
             <iframe
               src="https://youtube.com/embed/IVCo0yodpjk"
@@ -42,6 +42,7 @@ const Client = () => {
               allowFullScreen
             />
           </div>
+        */}
         </div>
 
       </div>

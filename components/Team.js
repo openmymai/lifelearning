@@ -15,6 +15,7 @@ const Team = () => {
             <h5>
               <a href="/daily/learning"><i className="bi bi-check-all"></i>บทนำไปใช้ในชีวิตประจำวัน</a>
             </h5>
+          {/*
             <div className="section-title">
               <h2><a href="https://www.youtube.com/channel/UCNyi06GbM49kasvouCD9qvQ?sub_confirmation=1">Subscribe <i className="bi bi-youtube" /></a></h2>
             </div>
@@ -41,6 +42,8 @@ const Team = () => {
                 allowFullScreen
               />
             </div>
+          */}
+          
         </div>
       </div>
     </section>

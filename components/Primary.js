@@ -32,6 +32,7 @@ const Primary = () => {
           </div>
         </div>
 
+      {/*
         <div className="row justify-content-center" data-aos="zoom-in">
           <div className="section-title">
             <h2><a href="https://www.youtube.com/channel/UCNyi06GbM49kasvouCD9qvQ?sub_confirmation=1">Subscribe <i className="bi bi-youtube" /></a></h2>
@@ -52,6 +53,8 @@ const Primary = () => {
             />
           </div>
         </div>
+      */}
+
       </div>
     </section>
   )
