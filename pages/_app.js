@@ -50,7 +50,6 @@ const MyApp = ({ Component, pageProps }) => {
           `,
           }}
         />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3664300978138962" crossorigin="anonymous"></script>
       </Head>
       <Layout>
         <Component {...pageProps} />
