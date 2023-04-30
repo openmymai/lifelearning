@@ -6,7 +6,7 @@ const Lesson0105 = () => {
       <section id="hero2" className="d-flex">
         <div className="container" data-aos="fade-up">
           <div className="section-title">
-            <h2>ฝึกเอาความจริงไปใช้</h2>
+            <h2>การพิจารณาอินทรีย์ 6 และขันธ์ 5</h2>
           </div>
             <h4>
             ตัวฉันไม่เที่ยงเกิดดับ ตัวฉันคือ รูป เวทนา สัญญา สังขาร วิญญาณ ไม่เที่ยง เป็นทุกข์ เป็นอนัตตา<br />
