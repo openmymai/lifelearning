@@ -17,32 +17,52 @@ const Hero = () => {
       backSpeed: 40,
       loop: true,
     };
-    typed.current = new Typed(el.current, options)
+    typed.current = new Typed(el.current, options);
 
     return () => {
       typed.current.destroy();
-    }
-  },[]);
+    };
+  }, []);
   return (
-    <section id="hero" className="d-flex align-items-center">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+    <section
+      id='hero'
+      className='d-flex align-items-center'
+    >
+      <div className='container'>
+        <div className='row'>
+          <div
+            className='col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1'
+            data-aos='fade-up'
+            data-aos-delay='200'
+          >
             <h1>พระพุทธเจ้าสอนอะไร?</h1>
-            <h2><span style={{ whiteSpace: 'pre' }} ref={el} /></h2>
-            <a href="/buddhateaching/life01">
+            <h2>
+              <span
+                style={{ whiteSpace: 'pre' }}
+                ref={el}
+              />
+            </h2>
+            <h2>
+              <a href='introduction'>บทสรรเสริญคุณพระรัตนตรัย</a>
+            </h2>
+            <a href='/buddhateaching/life01'>
               <h2>
-              <span>ปัญญา ศีล สมาธิ</span><br />
-              <span>เป็นคำสอนของพระพุทธเจ้า</span><br />
-              <span>นำไปปฏิบัติอย่างไร?</span>
+                <span>ปัญญา ศีล สมาธิ</span>
+                <br />
+                <span>เป็นคำสอนของพระพุทธเจ้า</span>
+                <br />
+                <span>นำไปปฏิบัติอย่างไร?</span>
               </h2>
             </a>
-            <h2><a href="introduction">บทสรรเสริญคุณพระรัตนตรัย</a></h2>
           </div>
-          <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <div
+            className='col-lg-6 order-1 order-lg-2 hero-img'
+            data-aos='zoom-in'
+            data-aos-delay='200'
+          >
             <Image
-              src="/img/lotuspng.png"
-              alt="lotus"
+              src='/img/lotuspng.png'
+              alt='lotus'
               width={300}
               height={412}
             />
@@ -50,7 +70,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Hero;
