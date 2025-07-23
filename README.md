@@ -182,3 +182,6 @@ If you do not need the features of useEffect, you can even remove its usage comp
 
 **Finally,** you could also load your ```Scroll``` component only in _app.js if what you're trying to achieve is to globally load a component and forget about it (no more mount/unmount on page change).
 
+<a href="https://www.buymeacoffee.com/maicmi">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" height="25">
+</a>
