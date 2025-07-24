@@ -1,32 +1,73 @@
-# Lifelearning, Modern NextJS website
+<div align="center">
+  <a href="https://www.buymeacoffee.com/maicmi" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" height="45">
+  </a>
+  <br/>
+  <small>If you found this project or the code snippets helpful, consider supporting my work!</small>
+</div>
 
-Clone from [bootstrapmade.com](https://bootstrapmade.com/)
+<br/>
 
-- NextJS
-- TypedJS
-- AOS
-- Bootstrap
+# Lifelearning - A Modern Next.js Website & Code Snippet Hub
 
-### Deploy on Vercel [https://lifelearning.vercel.app](https://lifelearning.vercel.app)
+This repository contains the source code for the **Lifelearning** website, a modern, responsive site built with Next.js and Bootstrap, based on a template from BootstrapMade.
 
-# useWindowSize
-A really common need is to get the current size of the browser window. This hook returns an object containing the window's width and height. If executed server-side (no window object) the value of width and height will be undefined.
-```
-import { useState, useEffect } from "react";
+More than just a demo, this project also serves as a practical guide and a collection of useful React Hooks and solutions to common problems encountered in Next.js development.
 
-// Usage
-function App() {
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+---
+
+## 🚀 Live Demo
+
+Check out the live version deployed on Vercel:
+
+**[https://lifelearning.vercel.app](https://lifelearning.vercel.app)**
+
+---
+
+## 🛠️ Tech Stack
+
+-   **Framework**: [Next.js](https://nextjs.org/)
+-   **UI Library**: [React](https://reactjs.org/)
+-   **Styling**: [Bootstrap](https://getbootstrap.com/)
+-   **Animations**: [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)
+-   **Typing Effect**: [Typed.js](https://github.com/mattboldt/typed.js)
+
+---
+
+## 🧠 Useful Next.js Patterns & Hooks
+
+This repository contains practical solutions and custom hooks that you can adapt for your own projects.
+
+### 1. `useWindowSize` Hook
+
+A common need is to get the current size of the browser window. This hook returns an object containing the window's width and height. If executed server-side, the values will be `undefined` to prevent hydration errors.
+
+**Usage:**
+```jsx
+import { useWindowSize } from './hooks/useWindowSize';
+
+function MyComponent() {
   const size = useWindowSize();
 
   return (
     <div>
-      {size.width}px / {size.height}px
+      Window Dimensions: {size.width}px / {size.height}px
     </div>
   );
 }
+```
+
+**Hook Implementation:**
+```jsx
+import { useState, useEffect } from "react";
 
 // Hook
-function useWindowSize() {
+export function useWindowSize() {
   // Initialize state with undefined width/height so server and client renders match
   // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
   const [windowSize, setWindowSize] = useState({
@@ -37,7 +78,6 @@ function useWindowSize() {
   useEffect(() => {
     // Handler to call on window resize
     function handleResize() {
-      // Set window width/height to state
       setWindowSize({
         width: window.innerWidth,
         height: window.innerHeight,
@@ -46,7 +86,6 @@ function useWindowSize() {
 
     // Add event listener
     window.addEventListener("resize", handleResize);
-
     // Call handler right away so state gets updated with initial window size
     handleResize();
 
@@ -58,130 +97,76 @@ function useWindowSize() {
 }
 ```
 
-# How to solve "window is not defined" errors in React and Next.js 
+### 2. How to Solve "window is not defined" Errors
 
-Next.js is a React framework with pre-rendering abilities. This means that for every page, Next.js will try to generate the HTML of the page for better SEO and performance.
+Next.js pre-renders pages on the server, where the `window` object does not exist. This causes errors if you try to access it directly in your component's top-level scope. Here are three effective solutions:
 
-This is why, if you're trying to do this:<br>
-```
-window.addEventListener("scroll", function() {
-  console.log("scroll!")
-});
-```
-<br>
-Then it will fail with "ReferenceError: window is not defined":<br>
-<img width="1186" alt="Screenshot 2023-02-13 at 8 06 15 PM" src="https://user-images.githubusercontent.com/15844801/218466180-398ebac3-f341-4156-b4a0-2480c683be7f.png">
-<br>
-Because in the Node.js world, window is not defined, window is only available in browsers.
+#### Solution A: Check with `typeof`
 
-There are three ways to solve that:
-### 1. First solution: typeof 
-While you can't use:<br>
-```
-if (window !== "undefined") {
-  // browser code
-}
-```
-Because this would try to compare a non-existent variable (window) to undefined, resulting in the mighty "ReferenceError: window is not defined". You can still use:
-```
+This is a quick check for one-off situations. It works because `typeof` can check a variable's type without trying to evaluate it, thus avoiding a `ReferenceError`.
+
+```jsx
 if (typeof window !== "undefined") {
-  // browser code
+  // This code will only run on the client-side
+  window.addEventListener("scroll", () => {
+    console.log("scrolling!");
+  });
 }
 ```
-Because typeof won't try to evaluate "window", it will only try to get its type, in our case in Node.js: "undefined".
 
-### 2. Second solution: the useEffect hook
-The "React" way to solve this issue would be to use the useEffect React hook. Which only runs at the rendering phase, so it won't run on the server.
+#### Solution B: The `useEffect` Hook (Recommended)
 
-Let's update our scroll.js component:<br>
-```
+The standard React way to handle browser-only logic. The `useEffect` hook only runs on the client-side after the component has mounted.
+
+```jsx
 import React, { useEffect } from "react";
 
-export default function Scroll() {
-  useEffect(function mount() {
+export default function ScrollListener() {
+  useEffect(() => {
     function onScroll() {
       console.log("scroll!");
     }
 
     window.addEventListener("scroll", onScroll);
 
-    return function unMount() {
+    // Cleanup function to remove the listener when the component unmounts
+    return () => {
       window.removeEventListener("scroll", onScroll);
     };
-  });
+  }, []); // The empty dependency array ensures this runs only once on mount
 
-  return null;
+  return null; // This component doesn't render anything
 }
 ```
-What we've done here is to turn our initial JavaScript file into a true React component that then needs to be added to your React tree via:<br>
-```
-import Scroll from "../components/Scroll";
 
-export default function Home() {
-  return (
-    <div style={{ minHeight: "1000px" }}>
-      <h1>Home</h1>
-      <Scroll />
-    </div>
-  );
-}
-```
-**Tip:** The way we use useEffect in the example is to register and unregister the listeners on mount/unmount. But you could also just register on mount and ignore any other rendering event, to do so you would do this:<br>
-```
-import React, { useEffect } from "react";
+#### Solution C: Dynamic Imports
 
-export default function Scroll() {
-  useEffect(function onFirstMount() {
-    function onScroll() {
-      console.log("scroll!");
-    }
-    window.addEventListener("scroll", onScroll);
-  }, []);
-  return null;
-}
-```
-### 3. Third solution: dynamic loading
+This is a powerful Next.js feature. You can dynamically import a component with Server-Side Rendering (SSR) turned off. This is perfect for components that are entirely client-side and depend heavily on browser APIs.
 
-A different solution is to load your Scroll component using dynamic imports and the ```srr: false``` option. This way your component won't even be rendered on the server-side at all.
-
-This solution works particularly well when you're importing external modules depending on ```window```.<br>
-```
-// components/Scroll.js
-
-function onScroll() {
-  console.log("scroll!");
-}
-
-window.addEventListener("scroll", onScroll);
-
-export default function Scroll() {
-  return null;
-}
-
+```jsx
 // pages/index.js
-
 import dynamic from "next/dynamic";
 
-const Scroll = dynamic(
-  () => {
-    return import("../components/Scroll");
-  },
+const ScrollListener = dynamic(
+  () => import("../components/ScrollListener"),
   { ssr: false }
 );
 
 export default function Home() {
   return (
-    <div style={{ minHeight: "1000px" }}>
+    <div>
       <h1>Home</h1>
-      <Scroll />
+      <ScrollListener />
     </div>
   );
 }
 ```
-If you do not need the features of useEffect, you can even remove its usage completely as shown here.
+```jsx
+// components/ScrollListener.js
+// This code now runs only on the client, so direct access is safe.
+window.addEventListener("scroll", () => console.log("scroll!"));
 
-**Finally,** you could also load your ```Scroll``` component only in _app.js if what you're trying to achieve is to globally load a component and forget about it (no more mount/unmount on page change).
-
-<a href="https://www.buymeacoffee.com/maicmi">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" height="25">
-</a>
+export default function ScrollListener() {
+  return null;
+}
+```
